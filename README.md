@@ -23,8 +23,22 @@
   STEP-8: The blocks C and D are taken as the block D and E for the final output.
 
 ## PROGRAM:
+```
+# SHA hash algorithms. 
+import hashlib 
 
+# initializing string 
+str = "helloworld"
+print("Text: ",str)
+
+# then sending to SHA1() 
+result = hashlib.sha1(str.encode()) 
+
+# printing the equivalent hexadecimal value. 
+print("\nThe hexadecimal equivalent of SHA1 is : ", result.hexdigest()) 
+```
 ## OUTPUT:
+![image](https://github.com/AnnBlessy/EX.-NO-2-E-IMPLEMENTATION-OF-SHA-I/assets/119477835/13face2f-b228-4122-b53a-b68b08339213)
 
 ## RESULT:
   Thus the SHA-1 hashing technique had been implemented successfully.
